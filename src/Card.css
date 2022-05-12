@@ -1,0 +1,192 @@
+.Card{
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 85%;
+}
+
+
+.CardContainerTitulo{
+
+	color: #6D6D6D;
+}
+.CardTitulo h1{
+	
+		font-size: 60px;
+		margin: 10px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 300;
+}
+.CardTitulo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.CardTitulo button{
+	font-size: 25px;
+	border-style: none;
+	border-radius: 5px;
+	margin: 2px;
+
+}
+.CardContainers{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.CardContainerInfo div button img{
+		margin-left: 5px;
+
+	width: 20px;
+}
+.CardContainerInfo div button{
+	text-transform: uppercase;
+	font-size: 15px;
+	border-style: none;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 2px;
+	text-align: center;
+	display: flex;
+	color: #FFFFFF;
+
+
+
+}
+.CardContainerInfo div p{
+	font-size: 20px;
+	color: #505050;
+}
+.CardContainerInfo div h2{
+	color: #6D6D6D;
+
+	font-size: 20px;
+}
+.CardContainerInfo div{
+	display: flex;
+
+	align-items: center;
+	justify-content: space-evenly;
+}
+.CardContainerInfo{
+	width: 30%;
+	display: flex;
+
+	
+
+	flex-direction: column;
+
+}
+.CardContainerImg img{
+	width: 100%;
+	height: 100%;
+}
+.CardContainerImg{
+	width: 40%;
+	margin: 20px;
+	height: 400px;
+
+}
+.CardContainerSkills{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.CardContainerSkillsStrong{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+
+	height:80px;
+}
+.CardContainerSkillsStrong button{
+	color:#2E2323;
+	font-size: 25px;
+	border-style: none;
+	border-radius: 20px;
+	padding: 8px;
+
+
+}
+.Strong{
+	background-color: #FFFFFF;
+
+	display: flex;
+	width: 100%;
+	height: 60px;
+}
+.HPp p{
+	font-size: 20px;
+	color: #3D3838;
+}
+.HPp{
+	width: 30%;
+
+}
+.HPPorcentaje ,.SpDefencePorcentaje,.SpeedPorcentaje,.SpAtackPorcentaje, .DefencePorcentaje, .AtacckPorcentaje{
+	width: 70%;
+
+	display: flex;
+	align-items: center;
+	justify-content:initial;
+
+}
+.HPPorcentajeNumber ,.SpDefencePorcentajeNumber ,.SpeedPorcentajeNumber ,.SpAtackPorcentajeNumber , .AtacckPorcentajeNumber , .DefencePorcentajeNumber{
+
+	width: 60%;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+
+	border-radius: 7px;
+	
+}
+.HPPorcentajeNumber p, .SpDefencePorcentajeNumber p,.SpeedPorcentajeNumber p,.SpAtackPorcentajeNumber p , .AtacckPorcentajeNumber p, .DefencePorcentajeNumber p{
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.CardEvos{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	align-items: center;
+
+}
+@media only screen and (max-width: 700px) {
+	.Card{
+		width: 100%;
+
+	}
+
+	.CardContainers{
+		flex-direction: column;
+		width: 100%;
+
+	}
+	.CardTitulo {
+
+
+
+		margin-left: -10px;
+	}
+	.CardContainerImg{
+	width: 60%;
+	margin: 20px;
+	height: 400px;
+
+}
+.CardContainerSkills{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+}

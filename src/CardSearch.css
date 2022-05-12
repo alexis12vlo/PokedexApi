@@ -1,0 +1,74 @@
+.Cards{
+	width: 18%;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	border-radius: 10px;
+
+	border-style: solid;
+	align-items: center;
+	border-width: 2px;
+	border-color:#999999;
+	color: #999999;
+	font-family: 'Raleway', sans-serif;
+	
+}
+.Cards:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.CardsSearchId h1{
+	font-size: 50px;
+	font-weight: 300;
+
+}
+
+.NombreCardSearch{
+	display: flex;
+	
+	width: 80%;
+	height: 30%;
+	align-items: center;
+	justify-content: space-between;
+}
+.LogosCardSearch{
+	width: 40px;
+
+}
+.LogosCardSearch img{
+	width: 100%;
+}
+.Logosdiv{
+	margin-top: 3px;
+	border-radius: 30px;
+	padding: 7px;
+	background-color: #512424;
+}
+.ImageCardSearch{
+	width: 90%;
+	height: 170px;
+	}
+.ImageCardSearch img{
+	width: 60%;
+	height: 100%;
+}
+p{
+	font-size: 30px;
+}
+@media only screen and (max-width: 700px) {
+
+	.Cards{
+		width: 40%;
+		height: 330px;
+		display: flex;
+		justify-content: center;
+	}
+	.ImageCardSearch{
+		height: 100px;
+	}
+	p{
+		font-size: 28px;
+	}
+
+}
