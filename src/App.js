@@ -7,7 +7,6 @@ import './Portada/Portada.css'
 import Portada from './Portada/Portada.jsx';
 export default function App() {
 const [visible,setVisible]=useState([{none:'none',block:'block'}])
-console.log(visible.block);
   return (
 
     <div className="App">

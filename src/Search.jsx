@@ -18,7 +18,13 @@ function Search() {
   const [noneCardso, setNoneCardso] = useState('1')
   const [color, setColor] = useState('#EFEFEF')
   function PokemonClick(id, color) {
+
     setPokemonFilter(id);
+
+
+
+
+
 
     setTimeout(() => {
       setNoneSearch('flex')
@@ -27,15 +33,6 @@ function Search() {
       setNoneCardso('0')
       window.scrollTo(0, 0)
       setColor('#EFEFEF');
-
-    }, 1000)
-
-
-
-
-
-    setTimeout(() => {
-
       setNoneCards('none')
       setNoneCardso('0')
       window.scrollTo(0, 0)
@@ -55,7 +52,8 @@ function Search() {
     setNoneCards('flex')
     setColor('#EFEFEF');
     console.log('Volver');
-    setPokemonFilter('');
+    setPokemonFilter('3');
+    setFiltro('');
 
 
   }
@@ -82,7 +80,6 @@ function Search() {
         setCa(ca + 1);
 
       });
-    console.log(ca);
   }
 
 
@@ -146,7 +143,8 @@ function Search() {
               }
             }
           }).map((elemento, id) => (
-            <CardSearch PokemonClick={PokemonClick} key={id} color={elemento.color} name={elemento.name} id={elemento.id} />
+
+            < CardSearch Volver={Volver} PokemonClick={PokemonClick} key={id} color={elemento.color} name={elemento.name} id={elemento.id} />
           )
           )
         }
