@@ -1,0 +1,52 @@
+.Portada2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+background: linear-gradient(#e66465, #9198e5);
+
+    
+}
+.PortadaImage{
+    
+    width:500px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./pokemonportada.png');
+
+}
+.PortadaPokemones{
+    
+    width:700px;
+    height: 460px;
+    background-image: url('./pokemonesportada.png');
+    
+    background-repeat: no repeat;
+    
+}
+.PortadaBoton{
+    padding: 20px;
+    transition-duration: 2s;
+}
+.PortadaBoton button{
+		font-family: 'Raleway', sans-serif;
+    color: beige;
+    border-style: none;
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    transition-duration: 1s;
+    box-shadow: 0 5px rgb(184, 187, 196);
+    
+    padding-right: 20px;
+    border-radius: 30px;
+    background-color: rgb(57, 94, 143);
+}
+.PortadaBoton button:hover{
+    box-shadow: 0 5px #666;
+
+    background-color: rgb(82, 65, 114);
+    transform: scale(1.1);
+}
